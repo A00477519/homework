@@ -4,6 +4,7 @@ import img from '../profilepic.jpeg';
 function HomePage() {
   return (
     <div className="App">
+    <h2>THIS is QA</h2>
         <div className='bodystext'>
             <div>
                 <img src={img} alt="my picture" width="200%" />
