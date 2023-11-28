@@ -4,11 +4,13 @@ import img from '../profilepic.jpeg';
 function HomePage() {
   return (
     <div className="App">
+    <h2>THIS is DEV</h2>
         <div className='bodystext'>
             <div>
                 <img src={img} alt="my picture" width="200%" />
             </div>
             <div className='text'>
+                
                 <h1>Hi, I'm Papa Kwame Ntiamoah</h1>
                 <p>
                     I'm a
@@ -24,6 +26,8 @@ function HomePage() {
                     innovation, and I wanted to develop the advanced knowledge and skills needed to work at the forefront of this rapidly evolving field.
         
                 </p>
+
+              
        
             </div>
         
